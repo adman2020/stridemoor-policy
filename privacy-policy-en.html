@@ -58,7 +58,7 @@
 <body>
 <div class="container">
     <h1>StrideMoor Privacy Policy</h1>
-    <p class="update-date">Last updated: August 5, 2026</p>
+    <p class="update-date">Last updated: September 26, 2026</p>
 
     <p>Welcome to StrideMoor (hereinafter referred to as "the App" or "we"). The App is operated by <strong>Shenzhen Qixin Technology Co., Ltd.</strong> (hereinafter referred to as "Qixin Technology"). We take your privacy and personal information protection very seriously. This Privacy Policy is intended to explain how we collect, use, store, share, and protect your personal information, as well as your related rights.</p>
     <p>Please read this Privacy Policy carefully before using the App. By continuing to use the App, you are deemed to have fully understood and agreed to the contents of this policy.</p>
@@ -108,6 +108,7 @@
     <ul>
         <li><strong>With Your Explicit Consent:</strong> Sharing when we have obtained your separate consent;</li>
         <li><strong>Service Providers:</strong> We may engage third-party service providers (such as cloud servers, data analytics, AI model services) to process data. These providers are bound by confidentiality obligations and must provide an equivalent level of data protection;</li>
+        <li><strong>Third-party agents you authorise:</strong> after you actively enable and confirm, we return your activity data and health data to the agent caller you designate. See "12. Third-Party Agent Access";</li>
         <li><strong>Legal Requirements:</strong> We may disclose your information as required by laws, court orders, or government agencies.</li>
     </ul>
 
@@ -238,6 +239,37 @@
         <li>Significant changes in your rights regarding personal information processing and the ways to exercise them;</li>
         <li>Changes in the responsible department, contact information, and complaint channels for personal information security.</li>
     </ul>
+
+    <h2>12. Third-Party Agent Access</h2>
+    <p>The app offers an <strong>Agent Access</strong> feature: you can generate your own API key to let an <strong>AI agent that you build or host</strong> read your own activity data and health data. This feature is <strong>off by default</strong> and can only be used after you actively enable it and confirm the consent notice.</p>
+
+    <h3>12.1 What data may be provided</h3>
+    <ul>
+        <li><strong>Activity data:</strong> run/ride records, distance, duration, pace, cadence, tracks, routes, cumulative statistics, running/cycling realm levels;</li>
+        <li><strong>Health data:</strong> heart rate, blood oxygen, body temperature, blood pressure, sleep (including deep/light/REM stages), stress, ECG records, estimated VO2max;</li>
+        <li><strong>Other:</strong> points balance, notifications, your bound device information, and public community content.</li>
+    </ul>
+    <p>This API is <strong>read-only</strong>. It cannot modify, delete or create any of your data, and cannot start runs, challenges or point transactions on your behalf.</p>
+
+    <h3>12.2 Where the data goes, and the risks</h3>
+    <p><strong>This is a different data flow from our other features:</strong> once enabled, the data above is returned by our servers directly to <strong>the agent caller you designate</strong>. That caller may be software you developed and deployed yourself, or a third-party agent platform you chose to use.</p>
+    <ul>
+        <li>Once data has been returned to that caller, its storage, processing, reuse and protection are the responsibility of <strong>that caller and its operator</strong>. We do not control it and cannot vouch for it;</li>
+        <li>Only authorise callers you trust, and read their privacy policies yourself;</li>
+        <li>If the caller is located outside mainland China, this constitutes a <strong>cross-border data transfer</strong>; please assess it carefully before authorising;</li>
+        <li>The API key is equivalent to read access to your data. Never publish it, screenshot it, or commit it to a repository. If you suspect a leak, reset it in the app immediately.</li>
+    </ul>
+
+    <h3>12.3 Health data disclaimer</h3>
+    <p>Health data comes from consumer wearable devices. It is <strong>for reference only and is not medical advice</strong>, and must not be used for diagnosis or treatment decisions. Every endpoint that returns health data includes this statement alongside the data.</p>
+
+    <h3>12.4 How to turn it off and withdraw consent</h3>
+    <ul>
+        <li>You can turn the feature <strong>off at any time</strong> or <strong>reset the key</strong> in the app under Me → Help → Agent Access;</li>
+        <li>After turning it off or resetting, the previous key <strong>stops working immediately</strong> and the caller can no longer read any of your data;</li>
+        <li>Withdrawing consent does not affect transfers already completed, and does not affect your use of any other feature of the app.</li>
+    </ul>
+    <p>This feature is intended for adults. Minors should not enable it.</p>
 
     <h2>13. Contact Us</h2>
     <p>If you have any questions, comments, or complaints about this Privacy Policy, please contact us through the following methods:</p>
